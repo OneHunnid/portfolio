@@ -1,0 +1,112 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 16px;
+  width: 100%;
+  z-index: 25;
+  overflow-y: scroll;
+  background-color: initial;
+  transition: background 0.24s ease-in-out;
+
+  @media (min-width: 700px) {
+    padding: 0;
+    margin: 3.6rem 4.8rem;
+    max-width: 19.6rem;
+  }
+
+  &.showtime {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: $cream;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.0rem;
+
+  @media (min-width: 700px) {
+    margin-bottom: 7.2rem;
+  }
+
+  &__svg {
+    fill: $black;
+  }
+
+  &__wordmark {
+    margin-left: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+}
+
+.nav-label {
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  top: 23px;
+  right: 16px;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  @media (min-width: 700px) {
+    display: none;
+  }
+}
+
+.nav {
+  background-color: $gray-light;
+  padding: 16px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.24s ease-in-out,
+              visibility 0.24s ease-in-out;
+
+  @media (min-width: 700px) {
+    padding: 0;
+    background-color: transparent;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__section {
+    margin-bottom: 4.6rem;
+    color: $gray;
+    transition: color 0.12s ease-in-out;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+  }
+
+  &__item {
+    display: block;
+    font-weight: 600;
+    font-size: 1.8rem;
+
+    &:hover {
+      text-decoration: line-through;
+    }
+  }
+}
+
+.nav__section:hover {
+  color: $black;
+}
+
+.nav__section .is-active {
+  color: $black;
+  text-decoration: line-through;
+}
+
+.nav.showtime {
+  opacity: 1;
+  visibility: visible;
+}

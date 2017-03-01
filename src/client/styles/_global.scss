@@ -1,0 +1,382 @@
+  *, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page-home {
+  position: relative;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 48px;
+  max-width: 1200px;
+
+  @media (min-width: 700px) {
+    padding: 16px 0 16px 16px;
+    margin-left: 168px;
+    margin-top: 96px;
+  }
+}
+
+.banner {
+  background-color: $gray-light;
+  padding-top: 48px;
+  padding-left: 16px;
+  padding-bottom: 228px;
+
+  @media (min-width: 700px) {
+    padding-top: 144px;
+    padding-left: 14vw;
+  }
+
+  @media (min-width: 1368px) {
+    padding-left: 191px;
+  }
+
+  @media (min-height: 900px) {
+    padding-bottom: 24vh;
+  }
+
+  &__name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    opacity: 0.6;
+    text-transform: capitalize;
+  }
+
+  &__tagline {
+    font-size: 3.0rem;
+    font-weight: 600;
+    max-width: 420px;
+    text-transform: capitalize;
+  }
+}
+
+.about {
+
+  &__title {
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 4.8rem;
+
+    @media (min-width: 700px) {
+      margin-bottom: 9.6rem;
+    }
+  }
+
+  &__title a {
+    border-bottom: 3px solid;
+    transition: opacity 0.12s ease-in-out;
+  }
+
+  &__title a:hover {
+    opacity: 0.6;
+  }
+
+  &__title--current-job {
+    max-width: 560px;
+    font-size: 3.0rem;
+    margin-top: 4.8rem;
+
+    @media (min-width: 700px) {
+      margin-top: 9.6rem;
+    }
+  }
+
+  &__title--previous-job {
+    max-width: 590px;
+    opacity: 0.8;
+    margin-left: 5%;
+  }
+
+  &__title--hobbies {
+    max-width: 580px;
+    opacity: 0.6;
+    margin-left: 10%;
+  }
+}
+
+/*
+  ACCOLADES
+*/
+
+.accolades {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: $dark;
+  color: $white;
+  padding: 16px;
+  width: 100%;
+
+  @media (min-width: 1148px) {
+    display: inline-block;
+    text-align: left;
+    width: 247px;
+    margin-top: 9.6rem;
+    position: absolute;
+    top: 29%;
+    right: 48px;
+  }
+
+  &__container {
+    width: 49%;
+    margin: 24px 0;
+    align-self: center;
+
+    @media (min-width: 1148px) {
+      margin: 0 0 2.4rem 0;
+      width: 100%;
+
+      &:last-child {
+        margin-bottom: 0.8rem;
+      }
+    }
+  }
+
+  &__heading {
+    width: 49%;
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-style: italic;
+
+    @media (min-width: 1148px) {
+      margin-bottom: 1.6rem;
+    }
+  }
+
+  &__company {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+  }
+
+  &__title {
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 0.04rem;
+    opacity: 0.86;
+  }
+
+  &__project {
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 0.04rem;
+    opacity: 0.86;
+  }
+}
+
+.work {
+
+  &__container {
+    background-color: $gray-light;
+    padding: 1.6rem;
+    padding-bottom: 28px;
+    text-align: center;
+
+    @media (min-width: 1040px) {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: baseline;
+      padding: 4.8rem 6.0rem;
+    }
+
+    @media (min-width: 1148px) {
+      padding: 4.8rem 7.2rem;
+    }
+  }
+
+  &__title {
+    font-size: 3.0rem;
+    font-weight: 300;
+    margin-bottom: 1.2rem;
+    text-transform: capitalize;
+
+    @media (min-width: 1040px) {
+      margin: 0;
+      width: 48%;
+      text-align: left;
+    }
+  }
+
+  &__role {
+    font-size: 1.6rem;
+    font-weight: 400;
+    opacity: 0.9;
+    text-transform: capitalize;
+
+    @media (min-width: 600px) {
+      display: inline;
+      margin-bottom: 1.6rem;
+      margin-right: 24px;
+    }
+
+    @media (min-width: 1040px) {
+      margin: 0;
+    }
+  }
+
+  &__link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    opacity: 0.9;
+    text-transform: lowercase;
+
+    @media (min-width: 600px) {
+      display: inline;
+    }
+  }
+
+  &__desc {
+    max-width: 450px;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-top: 16px;
+
+    @media (min-width: 1040px) {
+      text-align: left;
+      margin: 0;
+      margin-top: 12px;
+      max-width: 350px;
+
+      &::before {
+        content: '';
+        background: $gray;
+        width: 12%;
+        display: block;
+        margin-bottom: 12px;
+        height: 3px;
+        margin-left: -17%;
+        opacity: 0.2;
+      }
+    }
+
+    @media (min-width: 1148px) {
+      &::before {
+        margin-left: -20%;
+      }
+    }
+  }
+}
+
+.gallery {
+
+  &__container {
+    padding: 1.6rem 0;
+
+    @media (min-width: 700px) {
+      padding: 3.2rem 3.2rem 3.2rem 7.2rem;
+    }
+
+    @media (min-width: 1040px) {
+      padding: 4.8rem 4.8rem 4.8rem 7.2rem;
+    }
+
+    @media (min-width: 1368px) {
+      padding-right: 0;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.6rem;
+
+    @media (min-width: 700px) {
+      margin-bottom: 3.2rem;
+    }
+
+    @media (min-width: 1040px) {
+      margin-bottom: 4.8rem;
+    }
+  }
+
+  &__image:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+.photography {
+
+  &__container {
+    padding: 1.6rem 0;
+
+    @media (min-width: 700px) {
+      padding-right: 3.2rem;
+    }
+
+    @media (min-width: 1040px) {
+      padding-right: 4.8rem;
+    }
+  }
+
+  &__title {
+    font-size: 8vw;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    @media (min-width: 700px) {
+      text-align: right;
+      font-size: 6vw;
+    }
+
+    @media (min-width: 1040px) {
+      font-size: 6.4rem;
+    }
+  }
+
+  &__gallery {
+    column-count: 1;
+    column-gap: 0;
+
+    @media (min-width: 700px) {
+      padding-right: 3.2rem;
+    }
+
+    @media (min-width: 1040px) {
+      column-count: 2;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    margin-bottom: 1rem;
+
+    @media (min-width: 1040px) {
+      padding: 2vw;
+      margin: 4vh 0;
+    }
+
+    @media(min-width: 1368px) {
+      padding: 27px;
+    }
+  }
+
+  &__image:first-child {
+    @media (min-width: 1040px) {
+      margin-left: 28px;
+    }
+  }
+
+  &__image--vertical {
+    @media (min-width: 1040px) {
+      padding: 10vw 8vw;
+    }
+
+    @media (min-width: 1368px) {
+      padding: 137px 110px;
+    }
+  }
+}

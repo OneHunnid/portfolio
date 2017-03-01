@@ -1,0 +1,198 @@
+{
+  "website" : {
+    "siteTitle" : "chris limbrick",
+    "siteDescription" : "web designer and developer based in brooklyn",
+    "socialAccounts" : [
+      {
+        "userId" : "climbrick",
+        "serviceName" : "twitter",
+        "profileUrl" : "https://twitter.com/climbrick"
+      },
+      {
+        "userId" : "climbrick",
+        "serviceName" : "instagram",
+        "profileUrl" : "https://instagram.com/climbrick"
+      },
+      {
+        "userId" : "climbrick",
+        "serviceName" : "dribbble",
+        "profileUrl" : "https://dribbble.com/climbrick"
+      },
+      {
+        "userId" : "onehunnid",
+        "serviceName" : "github",
+        "profileUrl" : "https://github.com/onehunnid"
+      },
+      {
+        "serviceName" : "email",
+        "emailAddress" : "climbrick@protonmail.com"
+      }
+    ]
+  },
+  "items" : [
+    {
+      "itemLabel" : "monochrome",
+      "category" : "photography",
+      "itemTitle" : "monochrome",
+      "itemDescription" : "",
+      "role" : "",
+      "link" : "",
+      "galleryImages" : [
+        {
+          "fileName" : "mc",
+          "fullUrl" : "mc",
+          "fileExtension" : "jpg",
+          "orientation" : "horizontal"
+        },
+        {
+          "fileName" : "Fish Market",
+          "fullUrl" : "fishmarket",
+          "fileExtension" : "jpg",
+          "orientation" : "horizontal"
+        },
+        {
+          "fileName" : "dimsum",
+          "fullUrl" : "dimsum",
+          "fileExtension" : "jpg",
+          "orientation" : "vertical"
+        },
+        {
+          "fileName" : "alley",
+          "fullUrl" : "alley",
+          "fileExtension" : "jpg",
+          "orientation" : "vertical"
+        },
+        {
+          "fileName" : "chinatowntunnel",
+          "fullUrl" : "chinatowntunnel",
+          "fileExtension" : "jpg",
+          "orientation" : "horizontal"
+        },
+        {
+          "fileName" : "bike",
+          "fullUrl" : "bike",
+          "fileExtension" : "jpg",
+          "orientation" : "vertical"
+
+        }
+      ]
+    },
+    {
+      "itemLabel" : "self-portraits",
+      "category" : "photography",
+      "itemTitle" : "self portraits",
+      "itemDescription" : "",
+      "role" : "",
+      "link" : "",
+      "galleryImages" : [
+        {
+          "fileName" : "",
+          "fullUrl" : ""
+        },
+        {
+          "fileName" : "",
+          "fullUrl" : ""
+        },
+        {
+          "fileName" : "",
+          "fullUrl" : ""
+        }
+      ]
+    },
+    {
+      "itemLabel" : "squarespace-circle",
+      "category" : "work",
+      "itemTitle" : "squarespace circle",
+      "itemDescription" : "",
+      "role" : "frontend developer",
+      "link" : "circle.squarespace.com",
+      "galleryImages" : [
+        {
+          "fileName" : "Circle Home",
+          "fullUrl" : "circle-home",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "Circle Learn More",
+          "fullUrl" : "circle-learn-more",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "Circle Footer",
+          "fullUrl" : "circle-footer",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "Circle Contact",
+          "fullUrl" : "circle-contact",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "Circle About",
+          "fullUrl" : "circle-about",
+          "fileExtension" : "jpg"
+        }
+      ]
+    },
+    {
+      "itemLabel" : "camonote",
+      "category" : "work",
+      "itemTitle" : "camonote",
+      "itemDescription" : "",
+      "role" : "designer and developer",
+      "link" : "onehunnid.github.io",
+      "galleryImages" : [
+        {
+          "fileName" : "Camonote Home",
+          "fullUrl" : "camonote-home",
+          "fileExtension" : "png"
+        },
+        {
+          "fileName" : "Camonote Message Feed – Funny",
+          "fullUrl" : "camonote-message-feed-funny",
+          "fileExtension" : "png"
+        },
+        {
+          "fileName" : "Camonote Message Feed – Music",
+          "fullUrl" : "camonote-message-feed-music",
+          "fileExtension" : "png"
+        }
+      ]
+    },
+    {
+      "itemLabel" : "urban-assembly-maker",
+      "category" : "work",
+      "itemTitle" : "Urban Assembly Maker",
+      "itemDescription" : "",
+      "role" : "Design and Developer",
+      "link" : "circle.squarespace.com",
+      "galleryImages" : [
+        {
+          "fileName" : "Circle Home",
+          "fullUrl" : "circle-home",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "Circle Learn More",
+          "fullUrl" : "circle-learn-more",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "Circle Footer",
+          "fullUrl" : "circle-footer",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "Circle Contact",
+          "fullUrl" : "circle-contact",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "Circle About",
+          "fullUrl" : "circle-about",
+          "fileExtension" : "jpg"
+        }
+      ]
+    }
+  ]
+}
