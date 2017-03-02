@@ -17,7 +17,7 @@ export default class PortfolioPhotography extends React.Component {
     const gallery = _.map(galleryArray, function(image) {
       const filename = image.fileName;
       const orientation = image.orientation;
-      const url = "./assets/portfolio-" + retrievedObj.category + "/" + retrievedObj.itemLabel + "/" +  image.fullUrl + "." + image.fileExtension;
+      const url = "/assets/portfolio-" + retrievedObj.category + "/" + retrievedObj.itemLabel + "/" +  image.fullUrl + "." + image.fileExtension;
 
       const galleryImageStyling = function() {
         if (orientation === 'vertical') {
