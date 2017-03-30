@@ -39,7 +39,7 @@ export default class Header extends React.Component {
 
 
     return (
-      <header id="header" className="header">
+      <header id="header" className="header js-showtime">
 
         <Link to="/" className="logo">
           <svg class="logo__svg" version="1.0" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 50.000000 50.000000" preserveAspectRatio="xMidYMid meet">
@@ -73,6 +73,9 @@ export default class Header extends React.Component {
           <div className="nav__section">
             <div className="nav__title">Works</div>
             <Link to="portfolio/work/squarespace-circle" className="nav__item" activeClassName="is-active">Squarespace Circle</Link>
+            <Link to="portfolio/work/urban-assembly-maker" className="nav__item" activeClassName="is-active">Urban Assembly Maker</Link>
+            <Link to="portfolio/work/camonote" className="nav__item" activeClassName="is-active">Camonote</Link>
+            <Link to="portfolio/work/dimmi" className="nav__item" activeClassName="is-active">Dimmi</Link>
           </div>
         </nav>
 

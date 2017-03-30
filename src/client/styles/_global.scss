@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.showtime {
+  opacity: 1;
+  visibility: visible;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -291,6 +296,7 @@ a {
     display: block;
     width: 100%;
     margin-bottom: 1.6rem;
+    border: 1px solid #eee;
 
     @media (min-width: 700px) {
       margin-bottom: 3.2rem;

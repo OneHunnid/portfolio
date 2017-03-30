@@ -13,9 +13,20 @@
     padding: 0;
     margin: 3.6rem 4.8rem;
     max-width: 19.6rem;
+    opacity: 0;
+    transform: translateX(-16px);
+    visibility: hidden;
+    transition: opacity 0.36s ease-in-out,
+                transform 0.36s ease-in-out;
+
+    &.showtime {
+      transform: translateY(0px);
+      opacity: 1;
+      visibility: visible;
+    }
   }
 
-  &.showtime {
+  &.show-nav {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -106,7 +117,7 @@
   text-decoration: line-through;
 }
 
-.nav.showtime {
+.nav.show-nav {
   opacity: 1;
   visibility: visible;
 }

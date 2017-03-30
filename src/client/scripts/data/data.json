@@ -103,7 +103,7 @@
       "itemLabel" : "squarespace-circle",
       "category" : "work",
       "itemTitle" : "squarespace circle",
-      "itemDescription" : "",
+      "itemDescription" : "A Squarespace micro-site focused on onboarding creative professionals who use the Squarespace platform. Circle provides exclusive perks and a highly engaging community for networking.",
       "role" : "frontend developer",
       "link" : "circle.squarespace.com",
       "galleryImages" : [
@@ -138,23 +138,23 @@
       "itemLabel" : "camonote",
       "category" : "work",
       "itemTitle" : "camonote",
-      "itemDescription" : "",
+      "itemDescription" : "Anonymous conversations that disappear in 24 hours. Built using Underscore and Firebase.",
       "role" : "designer and developer",
       "link" : "onehunnid.github.io",
       "galleryImages" : [
         {
           "fileName" : "Camonote Home",
-          "fullUrl" : "camonote-home",
+          "fullUrl" : "camonote-homepage",
           "fileExtension" : "png"
         },
         {
-          "fileName" : "Camonote Message Feed – Funny",
-          "fullUrl" : "camonote-message-feed-funny",
+          "fileName" : "Camonote Feed – #celebration",
+          "fullUrl" : "camonote-feed",
           "fileExtension" : "png"
         },
         {
-          "fileName" : "Camonote Message Feed – Music",
-          "fullUrl" : "camonote-message-feed-music",
+          "fileName" : "Camonote Feed – #Music",
+          "fullUrl" : "camonote-feed-music",
           "fileExtension" : "png"
         }
       ]
@@ -163,34 +163,54 @@
       "itemLabel" : "urban-assembly-maker",
       "category" : "work",
       "itemTitle" : "Urban Assembly Maker",
-      "itemDescription" : "",
-      "role" : "Design and Developer",
-      "link" : "circle.squarespace.com",
+      "itemDescription" : "Connecting students with young professionals to learn about industry careers one video at a time.",
+      "role" : "Designer and Developer",
+      "link" : "",
       "galleryImages" : [
         {
-          "fileName" : "Circle Home",
-          "fullUrl" : "circle-home",
+          "fileName" : "UAM Home Desktop",
+          "fullUrl" : "uam-homepage",
+          "fileExtension" : "png"
+        },
+        {
+          "fileName" : "UAM Contributor Page",
+          "fullUrl" : "uam-contributor-page",
+          "fileExtension" : "png"
+        },
+        {
+          "fileName" : "UAM Wireframe Desktop",
+          "fullUrl" : "uam-wireframe-desktop",
+          "fileExtension" : "png"
+        },
+        {
+          "fileName" : "UAM Wireframe Mobile",
+          "fullUrl" : "uam-wireframe-mobile",
+          "fileExtension" : "png"
+        },
+        {
+          "fileName" : "UAM Wireframe High Fidelity Homepage",
+          "fullUrl" : "wireframe-high-fidelity-homepage",
           "fileExtension" : "jpg"
         },
         {
-          "fileName" : "Circle Learn More",
-          "fullUrl" : "circle-learn-more",
+          "fileName" : "UAM Wireframe High Fidelity Video Page",
+          "fullUrl" : "wireframe-high-fidelity-videopage",
           "fileExtension" : "jpg"
-        },
+        }
+      ]
+    },
+    {
+      "itemLabel" : "dimmi",
+      "category" : "work",
+      "itemTitle" : "Dimmi",
+      "itemDescription" : "A simple Twitter aggregator with gesture control built for the TVs in the Squarespace office during hack week.",
+      "role" : "Designer and Developer",
+      "link" : "https://github.com/OneHunnid/dimmi-gesture",
+      "galleryImages" : [
         {
-          "fileName" : "Circle Footer",
-          "fullUrl" : "circle-footer",
-          "fileExtension" : "jpg"
-        },
-        {
-          "fileName" : "Circle Contact",
-          "fullUrl" : "circle-contact",
-          "fileExtension" : "jpg"
-        },
-        {
-          "fileName" : "Circle About",
-          "fullUrl" : "circle-about",
-          "fileExtension" : "jpg"
+          "fileName" : "Dimmi Homepage",
+          "fullUrl" : "dimmi-homepage",
+          "fileExtension" : "png"
         }
       ]
     }

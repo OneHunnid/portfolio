@@ -13,6 +13,7 @@ export default class PortfolioWork extends React.Component {
 
     const title = retrievedObj.itemTitle;
     const role = retrievedObj.role;
+    const description = retrievedObj.itemDescription;
     const link = "http://" + retrievedObj.link;
     const linkTitle = retrievedObj.link
     const galleryArray = retrievedObj.galleryImages;
@@ -31,8 +32,8 @@ export default class PortfolioWork extends React.Component {
         <div className="work__container">
           <div className="work__title">{title}</div>
           <div className="work__role">{role}</div>
-          <a href={link} target="_blank" className="work__link">{linkTitle}</a>
-          <div className="work__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit est dictum, dictum lorem non, vehicula diam. Aenean vitae aliquam magna. In iaculis mattis tristique.</div>
+          <a href={link} target="_blank" className="work__link">Explore Project</a>
+          <div className="work__desc">{description}</div>
         </div>
         <div className="gallery__container">
           {gallery}
