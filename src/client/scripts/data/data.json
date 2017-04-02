@@ -73,7 +73,6 @@
           "fullUrl" : "bike",
           "fileExtension" : "jpg",
           "orientation" : "vertical"
-
         }
       ]
     },
@@ -87,15 +86,91 @@
       "galleryImages" : [
         {
           "fileName" : "",
-          "fullUrl" : ""
+          "fullUrl" : "",
+          "fileExtension" : "jpg"
         },
         {
           "fileName" : "",
-          "fullUrl" : ""
+          "fullUrl" : "",
+          "fileExtension" : "jpg"
         },
         {
           "fileName" : "",
-          "fullUrl" : ""
+          "fullUrl" : "",
+          "fileExtension" : "jpg"
+        }
+      ]
+    },
+    {
+      "itemLabel" : "foolsdoart",
+      "category" : "internetfamous",
+      "itemTitle" : "foolsdoart",
+      "itemDescription" : "Chris and Francesco masterfully recreated famous works of art using only supplies found around the Squarespace Office in New York City. Foolsdoart was published by Oprah Magazine, Times, CNN, The Washington Post, Smithsonian Magazine, Major Syndicated News Networks, among others.",
+      "galleryImages" : [
+        {
+          "fileName" : "youngmanandwomaninaninn",
+          "fullUrl" : "youngmanandwomaninaninn",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "twoballetdancers",
+          "fullUrl" : "twoballetdancers",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "thesonofman",
+          "fullUrl" : "thesonofman",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "theoldguitarist",
+          "fullUrl" : "theoldguitarist",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "theanatomylessonofdrnicolaestulp",
+          "fullUrl" : "theanatomylessonofdrnicolaestulp",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "portraitofamaninaturban",
+          "fullUrl" : "portraitofamaninaturban",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "napoleoncrossingthealps",
+          "fullUrl" : "napoleoncrossingthealps",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "medusabycaravaggio",
+          "fullUrl" : "medusabycaravaggio",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "girlwiththepearlearring",
+          "fullUrl" : "girlwiththepearlearring",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "davidwithheadofgoliath",
+          "fullUrl" : "davidwithheadofgoliath",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "christinasworld",
+          "fullUrl" : "christinasworld",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "blondebeauty",
+          "fullUrl" : "blondebeauty",
+          "fileExtension" : "jpg"
+        },
+        {
+          "fileName" : "americangothic",
+          "fullUrl" : "americangothic",
+          "fileExtension" : "jpg"
         }
       ]
     },

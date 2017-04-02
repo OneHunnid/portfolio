@@ -77,6 +77,11 @@ export default class Header extends React.Component {
             <Link to="portfolio/work/camonote" className="nav__item" activeClassName="is-active">Camonote</Link>
             <Link to="portfolio/work/dimmi" className="nav__item" activeClassName="is-active">Dimmi</Link>
           </div>
+
+          <div className="nav__section">
+            <div className="nav__title">Internet Famous</div>
+            <Link to="portfolio/internet-famous/foolsdoart" className="nav__item" activeClassName="is-active">Foolsdoart</Link>
+          </div>
         </nav>
 
       </header>

@@ -200,6 +200,10 @@ a {
     }
   }
 
+  &__container--internetfamous {
+    display: block;
+  }
+
   &__title {
     font-size: 3.0rem;
     font-weight: 300;
@@ -383,6 +387,18 @@ a {
 
     @media (min-width: 1368px) {
       padding: 137px 110px;
+    }
+  }
+}
+
+.internetfamous {
+
+  &__image {
+    width: 100%;
+    margin-bottom: 1rem;
+
+    @media (min-width: 1040px) {
+      padding: 4vw;
     }
   }
 }
