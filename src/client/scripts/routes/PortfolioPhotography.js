@@ -21,10 +21,10 @@ export default class PortfolioPhotography extends React.Component {
 
       const galleryImageStyling = function() {
         if (orientation === 'vertical') {
-          return 'photography__image photography__image--vertical'
+          return 'photography__image photography__image--vertical js-showtime'
         }
         else {
-          return 'photography__image'
+          return 'photography__image js-showtime'
         }
       }
 

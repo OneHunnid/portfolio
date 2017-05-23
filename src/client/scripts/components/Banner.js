@@ -12,7 +12,7 @@ export default class Banner extends React.Component {
     const description = json.siteDescription;
 
     return (
-      <div className="banner">
+      <div className="banner js-showtime">
         <div className="banner__name">{title} –</div>
         <div className="banner__tagline">{description}</div>
       </div>

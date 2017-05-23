@@ -1,6 +1,7 @@
 import React from 'react'
 import _ from 'lodash'
 import json from '../data/data.json'
+import showtime from '../utils/showtime'
 
 export default class PortfolioWork extends React.Component {
   constructor(props) {
@@ -23,7 +24,7 @@ export default class PortfolioWork extends React.Component {
       const url = "/assets/portfolio-" + retrievedObj.category + "/" + retrievedObj.itemLabel + "/" +  image.fullUrl + "." + image.fileExtension;
 
       return (
-        <img src={url} alt={filename} className="gallery__image" key={filename}/>
+        <img src={url} alt={filename} className="gallery__image js-showtime" key={filename}/>
       )
     })
 

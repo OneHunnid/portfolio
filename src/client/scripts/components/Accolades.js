@@ -8,7 +8,7 @@ export default class Accolades extends React.Component {
   componentWillMount() {}
   render() {
     return (
-      <div className="accolades">
+      <div className="accolades js-showtime">
         <div className="accolades__heading">Accolades</div>
 
         <div className="accolades__container">

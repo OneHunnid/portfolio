@@ -9,12 +9,12 @@ export default class MainLayout extends React.Component {
     super(props)
   }
   componentDidMount() {
-    showtime.Intro()
     header.toggleMenu();
     header.closeOnClick();
     header.closeOnResize();
   }
   render() {
+    showtime.Intro()
     return (
       <div className='site-wrapper'>
         <Header data={json}/>
