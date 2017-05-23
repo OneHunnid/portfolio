@@ -63,6 +63,7 @@ export default class Header extends React.Component {
             <a href="https://dribbble.com/climbrick" target="_blank" className="nav__item">Dribbble</a>
             <a href="https://github.com/onehunnid" target="_blank" className="nav__item">Github</a>
             <a href="mailto:climbrick@protonmail.com" target="_blank" className="nav__item">Email</a>
+            <a href="https://www.linkedin.com/in/climbrick" target="_blank" className="nav__item">LinkedIn</a>
           </div>
 
           <div className="nav__section">
