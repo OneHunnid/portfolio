@@ -66,21 +66,23 @@ export default class Header extends React.Component {
           </div>
 
           <div className="nav__section">
-            <div className="nav__title">Photography</div>
-            <Link to="portfolio/photography/monochrome" className="nav__item" activeClassName="is-active">Monochrome</Link>
-          </div>
-
-          <div className="nav__section">
             <div className="nav__title">Works</div>
             <Link to="portfolio/work/squarespace-circle" className="nav__item" activeClassName="is-active">Squarespace Circle</Link>
             <Link to="portfolio/work/urban-assembly-maker" className="nav__item" activeClassName="is-active">Urban Assembly Maker</Link>
+            <Link to="portfolio/work/rootopedia" className="nav__item" activeClassName="is-active">Rootopedia</Link>
+            <Link to="portfolio/work/codeandcraft" className="nav__item" activeClassName="is-active">Code & Craft</Link>
             <Link to="portfolio/work/camonote" className="nav__item" activeClassName="is-active">Camonote</Link>
             <Link to="portfolio/work/dimmi" className="nav__item" activeClassName="is-active">Dimmi</Link>
           </div>
 
           <div className="nav__section">
+            <div className="nav__title">Photography</div>
+            <Link to="portfolio/photography/monochrome" className="nav__item" activeClassName="is-active">Monochrome</Link>
+          </div>
+
+          <div className="nav__section">
             <div className="nav__title">Internet Famous</div>
-            <Link to="portfolio/internet-famous/foolsdoart" className="nav__item" activeClassName="is-active">Foolsdoart</Link>
+            <a href="https://www.instagram.com/foolsdoart/" target="_blank" className="nav__item">Foolsdoart</a>
           </div>
         </nav>
 

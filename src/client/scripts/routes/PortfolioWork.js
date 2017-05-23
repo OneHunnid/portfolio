@@ -20,7 +20,7 @@ export default class PortfolioWork extends React.Component {
 
     const gallery = _.map(galleryArray, function(image) {
       const filename = image.fileName;
-      const url = "./assets/portfolio-" + retrievedObj.category + "/" + retrievedObj.itemLabel + "/" +  image.fullUrl + "." + image.fileExtension;
+      const url = "/assets/portfolio-" + retrievedObj.category + "/" + retrievedObj.itemLabel + "/" +  image.fullUrl + "." + image.fileExtension;
 
       return (
         <img src={url} alt={filename} className="gallery__image" key={filename}/>

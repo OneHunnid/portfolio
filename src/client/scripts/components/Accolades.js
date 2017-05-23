@@ -12,6 +12,12 @@ export default class Accolades extends React.Component {
         <div className="accolades__heading">Accolades</div>
 
         <div className="accolades__container">
+          <div className="accolades__company">BigApps Competition</div>
+          <div className="accolades__title">Design Submission, 2017</div>
+          <div className="accolades__project">Project: UAM Design Jam</div>
+        </div>
+
+        <div className="accolades__container">
           <div className="accolades__company">Phaidon Press</div>
           <div className="accolades__title">A Smile In The Mind, 2014</div>
           <div className="accolades__project">Project: FoolsDoArt</div>
