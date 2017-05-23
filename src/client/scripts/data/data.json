@@ -280,7 +280,7 @@
       "itemTitle" : "Dimmi",
       "itemDescription" : "A simple Twitter aggregator with gesture control built for the TVs in the Squarespace office during hack week.",
       "role" : "Designer and Developer",
-      "link" : "https://github.com/OneHunnid/dimmi-gesture",
+      "link" : "github.com/OneHunnid/dimmi-gesture",
       "galleryImages" : [
         {
           "fileName" : "Dimmi Homepage",
@@ -295,7 +295,7 @@
       "itemTitle" : "Code and Craft",
       "itemDescription" : "Company marketing website built using React and Redux.",
       "role" : "Designer and Developer",
-      "link" : "https://codeandcraft.nyc",
+      "link" : "www.codeandcraft.nyc",
       "galleryImages" : [
         {
           "fileName" : "Code and Craft Home Page",
@@ -310,7 +310,7 @@
       "itemTitle" : "Rootopedia",
       "itemDescription" : "Wireframes of a search based web application that fascilitates content exploration and discovery of Indo-European root words.",
       "role" : "Designer",
-      "link" : "http://rootopedia.com",
+      "link" : "www.rootopedia.com/",
       "galleryImages" : [
         {
           "fileName" : "Rootopedia Home",

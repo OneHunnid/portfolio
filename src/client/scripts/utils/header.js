@@ -18,6 +18,7 @@ var header = {
     $('#nav').on('click', () => {
       $('#header').removeClass('show-nav');
       $('.nav').removeClass('show-nav');
+      $('#navLabel').text('MENU');
     })
   },
   closeOnResize: function() {

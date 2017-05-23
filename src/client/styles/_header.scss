@@ -42,9 +42,11 @@
   align-items: center;
   margin-bottom: 2.0rem;
   pointer-events: visible;
+  width: 80%;
 
   @media (min-width: 700px) {
     margin-bottom: 7.2rem;
+    width: 100%;
   }
 
   &__svg {
